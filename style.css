@@ -1,0 +1,170 @@
+#du {
+    display: none;
+}
+  
+.button_lang {
+    background-color: #444;
+    color: #FFF;
+    padding: 8px 20px;
+    border-radius: 3px;
+    
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+}
+
+.button_lang:hover, .current_lang {
+    background-color: #777; 
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+}
+
+ul li {
+    width: auto;
+    display: inline; 
+    
+    
+}
+
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif; /* Add this line */
+}
+
+header {
+    display: flex;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+/* header ul {
+    padding: 0;
+} */
+
+/* header li {
+    margin-left: 20px;
+} */
+
+section {
+    /* border: 1px solid black; */
+    /* display: flex;   */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#quiz {
+    background-image: url(afbeeldingen/achtergrond.png);
+}
+
+#filmpje {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+#quotes {
+    background-color: #976F4F;
+    display: block;
+    color: white;
+    height: 675px;
+}
+
+#quotes p {
+    float: left;
+    /* border: 1px solid white; */
+    font-size: 1.75em;
+}
+
+#quote1 {
+    width: 850px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+#quote2 {
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 40px;
+    
+}
+
+#quote3 {
+    width: 1200px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+#quote4 {
+    width: 1800px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+#kunstwerken {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+#kunstwerken img {
+    margin-top: 25px;
+    margin-left: 25px; 
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+#lamleuk {
+    background-color: #976F4F;
+    /* height: 675px; */
+    display: flex;
+}
+
+#lamleuk h2 {
+    font-size: 3em;
+}
+
+#lamleuk p {
+    font-size: 2.5em;
+}
+
+#contactgegevens img {
+    margin-top: 70px;
+    width: 75%;
+}
+#contactdata {
+    display:flex;
+}
+
+#contactdata div {
+    flex:1 0 200px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Add everything below here */
+
+header a {
+    text-decoration: none;
+    color: black;
+}
